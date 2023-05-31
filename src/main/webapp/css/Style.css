@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    color: #d91717;
+}
+
+body {
+    background: linear-gradient(#070b0c, #27a19d);
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin:0;
+    font-family: sans-serif;
+
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#register {
+    padding: 1.5rem;
+}
+
+.titulo-datos {
+    /* Estilos para el texto "Ingresa tus datos" */
+    color: #f1f1f8; /* Cambia el color a tu elección */
+    font-size: 18px; /* Cambia el tamaño de fuente a tu elección */
+    /* Otros estilos que desees aplicar */
+}
+
